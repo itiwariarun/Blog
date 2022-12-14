@@ -22,10 +22,10 @@
     }
 </style>
 
-<body style="font-family: Open Sans, sans-serif" class="min-w-full">
+<body style="font-family: Open Sans, sans-serif;" class="min-w-full bg-gray-100">
 
     <section class="px-6 py-4 ">
-        <nav class="flex justify-between bg-white opacity-80 backdrop-blur-xl z-50 py-3 sticky top-0 items-center">
+        <nav class="flex justify-between bg-[#0f172a] opacity-80 backdrop-blur-xl z-50 py-3 sticky top-0 items-center">
             <div>
                 <a href="/">
                     <img src="/images/logo.png" alt="blogs Logo" width="165" height="16">
@@ -75,15 +75,16 @@
 
             </div>
         </nav>
+        <main class="">
 
-        {{ $slot }}
+        {{ $slot }}</main>
 
         <footer id="newsletter"
-            class="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center py-16 px-10 mt-16">
-            <img src="/images/lary-newsletter-icon.svg" alt="" class="mx-auto -mb-6" style="width: 145px;">
+            class="bg-gray-800 border border-black text-gray-200 border-opacity-5 rounded-xl text-center py-16 px-10 mt-16">
+            <img src="/images/avatar.png" alt="" class="mx-auto " style="width: 145px;">
 
-            <h5 class="text-3xl">Stay in touch with the latest posts</h5>
-            <p class="text-sm mt-3">Promise to keep the inbox clean. No bugs.</p>
+            <h5 class="text-3xl">Stay with us updated</h5>
+            <p class="text-sm mt-3">Connect with us</p>
 
             <div class="mt-10">
                 <div class="relative inline-block mx-auto lg:bg-gray-200 rounded-full">
